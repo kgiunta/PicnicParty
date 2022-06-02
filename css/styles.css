@@ -86,6 +86,22 @@
     }
 }
 
+.imgcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imgOne,
+.imgTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
